@@ -1,0 +1,50 @@
+/* Fill CSS here */
+h1{
+    text-align: center;
+    color: rgb(4, 64, 167);
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+form>input{
+    width: 300px;
+    height: 25px;
+}
+form>select{
+    width: 300px;
+    height: 30px;
+}
+
+th{
+    background-color : rgb(4, 64, 167);
+    color: white;
+    padding: 8px;
+}
+
+table{
+    border: 1px solid black ;
+}
+td{
+    border: 1px solid black;
+}
+
+table>tbody>tr{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    margin: 0;
+    padding: 0;
+    /* height: 10px; */
+    border: 1px solid red;
+    /* background-color: red; */
+    border: 1px solid black;
+    text-align: center;
+}
